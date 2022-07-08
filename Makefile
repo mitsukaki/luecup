@@ -11,5 +11,6 @@ run:
 	./bin/luecup*
 
 clean:
-	rm -rf luecup
-	rm -rf luecup-dev
+	rm -rf bin/luecup*
+	rm -rf db
+	rm -rf bin/db
