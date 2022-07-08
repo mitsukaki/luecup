@@ -1,2 +1,2 @@
 # luecup
-Simple tag-oriented search engine
+Simple tag-oriented query engine
