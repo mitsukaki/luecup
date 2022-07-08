@@ -1,0 +1,372 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jul 08 03:36:46 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+LC_CTYPE = en_US.UTF-8
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := e:/Development/luecup
+# makefile
+SHELL = C:/Program Files/Git/usr/bin/sh.exe
+# environment
+CONFIG_SITE = C:/Program Files/Git/etc/config.site
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"3cd3bd15e30fa0124a3f232cbca66525.ja","_translationsConfigFile":"C:\\Users\\mcfish\\AppData\\Roaming\\Code\\clp\\3cd3bd15e30fa0124a3f232cbca66525.ja\\tcf.json","_cacheRoot":"C:\\Users\\mcfish\\AppData\\Roaming\\Code\\clp\\3cd3bd15e30fa0124a3f232cbca66525.ja","_resolvedLanguagePackCoreLocation":"C:\\Users\\mcfish\\AppData\\Roaming\\Code\\clp\\3cd3bd15e30fa0124a3f232cbca66525.ja\\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"C:\\Users\\mcfish\\AppData\\Roaming\\Code\\clp\\3cd3bd15e30fa0124a3f232cbca66525.ja\\corrupted.info","_languagePackSupport":true}
+# environment
+_ = C:/Users/mcfish/AppData/Local/Programs/Microsoft VS Code/Code.exe
+# environment
+NVM_HOME = C:\Users\mcfish\AppData\Roaming\nvm
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\mcfish\AppData\Local\Temp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NVM_SYMLINK = C:\Program Files\nodejs
+# environment
+INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+MSYSTEM_CHOST = x86_64-w64-mingw32
+# environment
+VSCODE_CWD = E:\Development\luecup
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PATH = C:\Users\mcfish\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mcfish\bin;C:\Program Files\Oculus\Support\oculus-runtime;E:\VulkanSDK\1.2.148.1\Bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Libs\VulkanSDK\1.1.114.0\Bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Users\mcfish\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\TDM-GCC-64\bin;D:\Program Files\erl10.3\bin;D:\Program Files (x86)\Elixir\bin;C:\Users\mcfish\.mix\escripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\mcfish\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Users\mcfish\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\mcfish\AppData\Local\Programs\Python\Python37;C:\Users\mcfish\.cargo\bin;C:\Users\mcfish\AppData\Local\Microsoft\WindowsApps;C:\Users\mcfish\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mcfish\AppData\Roaming\nvm\v12.9.1;C:\Program Files\CMake\bin;C:\Program Files (x86)\Minecraft Launcher\runtime\jre-x64\bin;C:\Program Files\flatc;C:\Program Files\scrcpy-win64-v1.10;C:\Program Files\libav-11.3-win64\win64\usr\bin;C:\Program Files\ffmpeg-20191211-4110029-win64-static\bin;D:\Program Files\tokei;D:\itch_apps\butler;D:\TDM-GCC-64\bin;D:\Program Files\kubectl;D:\Program Files\doctl;D:\GnuWin32\bin;C:\Users\mcfish\go\bin;C:\Users\mcfish\Desktop\Tools\flutter\bin;C:\Users\mcfish\.dotnet\tools;E:\Program Files\dart-sdk\bin;C:\Users\mcfish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mcfish\AppData\Roaming\Python\Python37\Scripts;C:\Users\mcfish\Desktop\??\protobuf\bin;C:\Program Files\Graphviz\bin;C:\Users\mcfish\go\bin;C:\Win;C:\Users\mcfish\.dotnet\tools;C:\Users\mcfish\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+# environment
+SSLKEYLOGFILE = C:\Users\mcfish\Documents\Wireshark\ssl-keys.log
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+TERM_PROGRAM_VERSION = 3.5.2
+# environment
+LC_ALL = C
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+ONEDRIVE = C:\Users\mcfish\OneDrive
+# environment
+USERPROFILE = C:\Users\mcfish
+# environment
+MSYSTEM_CARCH = x86_64
+# environment
+EXEPATH = C:\Program Files\Git
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\mcfish\go
+# environment
+PLINK_PROTOCOL = ssh
+# environment
+MSYSTEM_PREFIX = C:/Program Files/Git/mingw64
+# environment
+NUMBER_OF_PROCESSORS = 24
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ANDROID_HOME = C:\Users\mcfish\AppData\Local\Android\Sdk
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# environment
+OCULUSBASE = C:\Program Files\Oculus\
+# environment
+VK_SDK_PATH = E:\VulkanSDK\1.2.148.1
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = needs-to-be-defined
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_25788_HMJIXRUEMOGEPMEM
+# environment
+ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mcfish\bin;C:\Program Files\Oculus\Support\oculus-runtime;E:\VulkanSDK\1.2.148.1\Bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Libs\VulkanSDK\1.1.114.0\Bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Users\mcfish\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\TDM-GCC-64\bin;D:\Program Files\erl10.3\bin;D:\Program Files (x86)\Elixir\bin;C:\Users\mcfish\.mix\escripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\mcfish\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Users\mcfish\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\mcfish\AppData\Local\Programs\Python\Python37;C:\Users\mcfish\.cargo\bin;C:\Users\mcfish\AppData\Local\Microsoft\WindowsApps;C:\Users\mcfish\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mcfish\AppData\Roaming\nvm\v12.9.1;C:\Program Files\CMake\bin;C:\Program Files (x86)\Minecraft Launcher\runtime\jre-x64\bin;C:\Program Files\flatc;C:\Program Files\scrcpy-win64-v1.10;C:\Program Files\libav-11.3-win64\win64\usr\bin;C:\Program Files\ffmpeg-20191211-4110029-win64-static\bin;D:\Program Files\tokei;D:\itch_apps\butler;D:\TDM-GCC-64\bin;D:\Program Files\kubectl;D:\Program Files\doctl;D:\GnuWin32\bin;C:\Users\mcfish\go\bin;C:\Users\mcfish\Desktop\Tools\flutter\bin;C:\Users\mcfish\.dotnet\tools;E:\Program Files\dart-sdk\bin;C:\Users\mcfish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mcfish\AppData\Roaming\Python\Python37\Scripts;C:\Users\mcfish\Desktop\??\protobuf\bin;C:\Program Files\Graphviz\bin;C:\Users\mcfish\go\bin;C:\Win;C:\Users\mcfish\.dotnet\tools;C:\Users\mcfish\AppData\Roaming\nvm;C:\Program Files\nodejs
+# environment
+COMPUTERNAME = ICE-BREAKER
+# environment
+PWD = E:/Development/luecup
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+PKG_CONFIG_PATH = C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = mcfish
+# environment
+PUBLIC = C:\Users\Public
+# environment
+MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+# environment
+GOMODCACHE = C:\Users\mcfish\go\pkg\mod
+# environment
+HOME = C:\Users\mcfish
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\mcfish\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\ICE-BREAKER
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = ICE-BREAKER
+# environment
+HOSTNAME = Ice-Breaker
+# environment
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+# environment
+MAKELEVEL := 0
+# environment
+SSH_ASKPASS = C:/Program Files/Git/mingw64/bin/git-askpass.exe
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# environment
+ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+# environment
+JAVA_HOME = C:\Program Files\Android\Android Studio\jre
+# default
+MAKE_VERSION := 3.82.90
+# environment
+MINGW_CHOST = x86_64-w64-mingw32
+# makefile
+.DEFAULT_GOAL := build
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\mcfish\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Intel\Wired Networking\
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# environment
+OLDPWD = E:/Development
+# environment
+TERM_PROGRAM = mintty
+# default
+.VARIABLES := 
+# environment
+TMPDIR = C:\Users\mcfish\AppData\Local\Temp
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\342c3e153b631029cd56ad8343faf21f-1.69.0-main-sock
+# environment
+HOMEPATH = \Users\mcfish
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+ORIGINAL_TMP = C:/Users/mcfish/AppData/Local/Temp
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+ORIGINAL_TEMP = C:/Users/mcfish/AppData/Local/Temp
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# environment
+MINGW_PREFIX = C:/Program Files/Git/mingw64
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\mcfish\AppData\Roaming
+# environment
+TEMP = C:\Users\mcfish\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+MSYSTEM = MINGW64
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+MSYS = enable_pcon
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 0101
+# default
+.RECIPEPREFIX := 
+# environment
+VULKAN_SDK = E:\VulkanSDK\1.2.148.1
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+TERM = xterm
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 25788
+# environment
+MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
+# environment
+USERDOMAIN_ROAMINGPROFILE = ICE-BREAKER
+# variable set hash-table stats:
+# Load=131/1024=13%, Rehash=0, Collisions=17/149=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Program Files\Git\usr\bin (key C:/Program Files/Git/usr/bin, mtime 1639107946): 314 files, no impossibilities so far.
+# . (key e:/Development/luecup, mtime 1657272990): 11 files, no impossibilities.
+# C:\Program Files\Git\usr\local\bin: could not be stat'd.
+# C:\Program Files\Git\mingw64\bin (key C:/Program Files/Git/mingw64/bin, mtime 1639107987): 109 files, no impossibilities.
+# C:\Users\mcfish\bin (key C:/Users/mcfish/bin, mtime 1645447438): 3 files, no impossibilities.
+
+# 437 files, no impossibilities in 5 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-08 03:35:36
+#  File has been updated 
+make.exe: *** No rule to make target 'all'.  Stop.
+
+.
+#  Successfully updated.
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 2):
+	GOOS=linux GARCH=amd64 CGO_ENABLED=0 go build -o luecup src/*.go
+
+dev:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	go build -o luecup-dev src/*.go
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	rm -rf luecup
+	rm -rf luecup-dev
+
+init:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 5):
+	go get ./...
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/18=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 424 / storage = 5636 B / avg = 13 B
+# current buf: size = 8174 B / used = 5636 B / count = 424 / avg = 13 B
+
+# strcache performance: lookups = 455 / hit rate = 6%
+# hash-table stats:
+# Load=424/8192=5%, Rehash=0, Collisions=25/455=5%
+# Finished Make data base on Fri Jul 08 03:36:46 2022
+
+ 
