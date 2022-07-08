@@ -1,5 +1,5 @@
 package main
 
 type FetchRequest struct {
-	tags []string
+	Tags []string
 }

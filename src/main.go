@@ -13,7 +13,7 @@ var db *leveldb.DB
 func main() {
 	// open the database
 	var err error
-	db, err = leveldb.OpenFile("path/to/db", nil)
+	db, err = leveldb.OpenFile("db", nil)
 	if err != nil {
 		panic(err)
 	}
@@ -23,12 +23,12 @@ func main() {
 	// create a new router
 	r := mux.NewRouter()
 
+	// api endpoints
+	r.HandleFunc("/api/fetch/{count:[0-9]+}/", HandleFetch)
+	r.HandleFunc("/api/tags/{tag}/", HandleTag)
+
 	// serve public directory
 	r.PathPrefix("/").Handler(http.FileServer(http.Dir("./public/")))
-
-	// api endpoints
-	r.HandleFunc("/api/fetch/{count:[0-9]+}/", handleFetch)
-	r.HandleFunc("/api/tags/{tag}/", handleTag)
 
 	// start server
 	http.ListenAndServe(":8080", r)
